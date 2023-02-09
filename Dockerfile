@@ -4,7 +4,7 @@ FROM python:3.7
 
 WORKDIR /app
 
-RUN git clone https://github.com/Coreprog/IntSem-Frontend.git .
+RUN git clone https://github.com/Coreprog/Front-IntSem.git .
 
 RUN pip3 install -r requirements.txt
 
