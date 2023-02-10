@@ -66,11 +66,11 @@ def show_predict_page():
             if task == 'Regression':
                 st.subheader(
                 """
-                Age Klassifzierung mit der Sklearn Pipeline und Regression:
+                Age Regression mit der Sklearn Pipeline und Regression:
                 """
                 )
 
-                with st.spinner('Age Klassifizierung wird durchgeführt...'):
+                with st.spinner('Age Regression wird durchgeführt...'):
                     age = age_classifier(txt,task)
 
                 st.write(f"Der Autor dieses Textes ist {age} Jahre alt.")
